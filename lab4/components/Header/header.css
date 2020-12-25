@@ -1,0 +1,21 @@
+.header{
+  height: 47vh;
+  width: 100vw;
+  background: url('/components/header/background.jpg');
+  background-size: 100% ;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2vh;
+}
+.profile{
+  height: 30vh;
+  border-radius: 50%;
+  border: 5px white solid;
+}
+.profile:hover{
+  height: 40vh;
+  transition: 0.5s ease-in-out;
+}
